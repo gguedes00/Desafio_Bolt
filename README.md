@@ -35,7 +35,7 @@ csv.import.url=https://dadosabertos.aneel.gov.br/path/to/ralie-usina.csv
 2. Compile e execute:
 
 ```bash
-cd leitor-csv
+cd BoltBackend
 ./mvnw clean install
 ./mvnw spring-boot:run
 ```
@@ -48,7 +48,7 @@ A API estará disponível em:
 ### 💻 Frontend (React)
 
 ```bash
-cd Bolt-front
+cd BoltFrontend
 npm install
 npm run dev
 ```
